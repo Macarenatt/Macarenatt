@@ -1,0 +1,189 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    overflow: hidden;
+}
+
+.fondo
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #a3d6db;
+    width: 100%;
+    height: 100%;
+    animation-name: fondo;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+@keyframes fondo
+{
+    50% {
+        background-color: #a3d6db;
+    }
+    100% {
+        background-color: #041718;
+    }
+}
+.sol
+{
+    background-color: #ffa500;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: -110px;
+    top: 30%;
+    border-radius: 50%;
+    box-shadow: 0px 0px 0px 10px rgba(255, 140, 0, 0.5);
+    animation-name: sol;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+@keyframes sol
+{
+    0% {
+        left: -110px;
+        top: 30%;
+    }
+    50% {
+        left: 50%;
+        top: 5%;
+        background-color: #ff4500;
+    }
+    100% {
+        left: calc(100% + 10px) ;
+        top: 30%;
+        background-color: #bee2e6;
+        box-shadow: 0px 0px 0px 10px rgba(209, 209, 209, 0.5);
+    }
+}
+.nubes
+{
+    background-image: url(img/fondo1.png);
+    background-repeat: repeat-x;
+    position: absolute;
+    top: 10%;
+    left: 0;
+    height: 174px;
+    width: 100%;
+    animation-name: nubes;
+    animation-duration: 20s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes nubes
+{
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 100% 0;
+    }
+}
+.ciudad
+{
+    background-image: url(img/ciudad.png);
+    background-repeat: repeat-x;
+    background-position: 0 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 80%;
+    width: 100%;
+    animation-name: ciudad;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes ciudad
+{
+    from {
+        background-position: 0 100% ;
+    }
+    to {
+        background-position: 100% 100%;
+    }
+}
+.bici
+{
+    width: 145px;
+    height: 80px;
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    text-align: center;
+}
+.bici .marco
+{
+    background-image: url(img/marcobici.png);
+    width: 98px;
+    height: 56px;
+    display: inline-block;
+    z-index: 2;
+    position: relative;
+}
+.bici .llanta
+{
+    background-image: url(img/llanta.png);
+    width: 55px;
+    height: 56px;
+    display: inline-block;
+    position: absolute;
+    animation-name: llantas;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    transform: rotate(0deg);
+}
+.bici .llanta1
+{
+    top: 27px;
+    right: 90px;
+    z-index: 1;
+}
+.bici .llanta2
+{
+    top: 24px;
+    right: 0px;
+    z-index: 3;
+}
+@keyframes llantas
+{
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+input [type=radio]
+{
+    position: relative;
+    z-index: 100;
+}
+.button
+{
+    position: relative;
+    z-index: 100;
+    cursor: pointer;
+    border-radius: 22px;
+    background-color: #1f1f1f;
+    display: inline-block;
+    padding: 12px 15px;
+}
+.btn1 {
+    background-image: url(img/play.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.btn2 {
+    background-image: url(img/play.png);
+    background-repeat: no-repeat;
+    background-position: -6px -8px;
+}
+.btn3 {
+    background-image: url(img/play.png);
+    background-repeat: no-repeat;
+    background-position: -107px -8px;
+}
