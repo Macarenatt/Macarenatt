@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafeteria SASS</title>
+    <link rel="stylesheet" href="build/css/app.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bona+Nova&family=Raleway:wght@700;900&family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header header-nosotros">
+        <div class="contenido-header contenedor">
+            <div class="barra">
+                <div class="logo">
+                    <img src="src/img/logo.svg" alt="">
+                </div>
+                <nav class="nav-principal">
+                    <a href="index.html">Inicio</a>
+                    <a class="activo" href="nosotros.html">Nosotros</a>
+                    <a href="proceso.html">Proceso</a>
+                    <a href="menu.html">Menú</a>
+                    <a href="galeria.html">Galería</a>
+                    <a href="contacto.html">Contacto</a>
+                </nav>
+            </div>
+
+            <div class="texto-header">
+                <h1>Una nueva experiencia cada día</h1>
+            </div>
+        </div>
+    </header>
+
+    <main class="contenedor contenido-principal">
+        <h2><span>Conoce más</span> sobre nosotros</h2>
+        <div class="contenido-nosotros">
+            <div class="imagen">
+                <picture>
+                    <!-- <source
+                        srcset="src/img/nosotros_sidebar.avif"
+                        type="image/avif">
+                    <source
+                        srcset="src/img/nosotros_sidebar.webp"
+                        type="image/webp">
+                    <source
+                        srcset="src/img/nosotros_sidebar.jpg"
+                        type="image/jpeg"> -->
+                    <img loading="lazy" decoding="async" src="src/img/nosotros_sidebar.jpg" alt="imagen" width="500">
+                </picture>
+            </div>
+            <div class="texto">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque consequatur consectetur reprehenderit numquam illum fugit, voluptatibus minima corporis harum, officia iste sequi temporibus sunt. Assumenda inventore labore deleniti vitae et!</p>
+
+                <blockquote>Excelente Sabor!</blockquote>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque consequatur consectetur reprehenderit numquam illum fugit, voluptatibus minima corporis harum, officia iste sequi temporibus sunt. Assumenda inventore labore deleniti vitae et!</p>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="contenedor contenido-footer footer-contenido bg-white">
+            <div class="footer-box ubicacion">
+                <h3>Ubicación</h3>
+                <p>Carrer les Corts Catalans 24</p>
+                <p>Barcelona, España</p>
+            </div>
+            <div class="footer-box resevacion">
+                <h3>Resevación</h3>
+                <p>Tel. 900 332 562</p>
+                <a href="https://wa.me/34687181280/?text=Hola, me interesa realizar una reservación">WhatsApp</a>
+            </div>
+            <div class="footer-box horario">
+                <h3>Horario</h3>
+                <p>Lunes-Viernes: 8:00 - 20:00</p>
+                <p>Sabado-Domingo: 8:00 - 16:00</p>
+            </div>
+        </div>
+        <div class="copyright">
+            <p >Todos los derechos reservados. La Cafetería.</p>
+            <p >Diseñado por Macarena Tudezca Teixidó</p>
+        </div>
+    </footer>
+</body>
+</html>
