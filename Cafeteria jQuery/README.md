@@ -1,8 +1,8 @@
 <h1 align="center">🌍 Sitio web 🌍  <br> Cafetería jQuery </h1>
 
 ## Screenshots
-![Ecommerce de muebles](screenshot.jpg)
-![Ecommerce de muebles](screenshot2.jpg)
+![Cafetería jQuery](screenshot.jpg)
+![Cafetería jQuery](screenshot2.jpg)
 
 ## Presentación del Proyecto
 
