@@ -1,8 +1,8 @@
 <h1 align="center">🌍 Sitio web 🌍  <br>Nucleus eWallet</h1>
 
 ## Screenshots
-![Ecommerce de muebles](screenshot.jpg)
-![Ecommerce de muebles](screenshot2.jpg)
+![Nucleus eWallet](screenshot.jpg)
+![Nucleus eWallet](screenshot2.jpg)
 
 ## Presentación del Proyecto
 

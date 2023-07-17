@@ -1,8 +1,8 @@
-<h1 align="center">🌍 Sitio web 🌍  <br> Cafetería jQuery </h1>
+<h1 align="center">🌍 Sitio web 🌍  <br> Startup Bootstrap </h1>
 
 ## Screenshots
-![Ecommerce de muebles](screenshot.jpg)
-![Ecommerce de muebles](screenshot2.jpg)
+![Startup Bootstrap](screenshot.jpg)
+![Startup Bootstrap](screenshot2.jpg)
 
 ## Presentación del Proyecto
 

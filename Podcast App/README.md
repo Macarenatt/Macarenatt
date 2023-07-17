@@ -1,9 +1,9 @@
 <h1 align="center">🌍 Sitio web 🌍  <br>Podcast App </h1>
 
 ## Screenshots
-![Ecommerce de muebles](screenshot.jpg)
-![Ecommerce de muebles](screenshot3.jpg)
-![Ecommerce de muebles](screenshot2.jpg)
+![Podcast App](screenshot.jpg)
+![Podcast App](screenshot3.jpg)
+![Podcast App](screenshot2.jpg)
 
 ## Presentación del Proyecto
 

@@ -1,8 +1,8 @@
 <h1 align="center">🌍 Sitio web 🌍  <br>Animación de un Atardecer </h1>
 
 ## Screenshots
-![Ecommerce de muebles](screenshot.jpg)
-![Ecommerce de muebles](screenshot2.jpg)
+![Animación de un Atardecer](screenshot.jpg)
+![Animación de un Atardecer](screenshot2.jpg)
 
 ## Presentación del Proyecto
 

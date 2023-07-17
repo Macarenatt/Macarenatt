@@ -1,8 +1,8 @@
 <h1 align="center">🌍 Sitio web 🌍  <br>La Cafetería </h1>
 
 ## Screenshots
-![Ecommerce de muebles](screenshot.jpg)
-![Ecommerce de muebles](screenshot2.jpg)
+![La Cafetería ](screenshot.jpg)
+![La Cafetería ](screenshot2.jpg)
 
 ## Presentación del Proyecto
 
