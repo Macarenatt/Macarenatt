@@ -1,8 +1,8 @@
-<h1 align="center">🌍 Sitio web 🌍  <br>Login Registro</h1>
+<h1 align="center">🌍 Sitio web 🌍  <br>Galería PHP-MySQL</h1>
 
 ## Screenshots
-![Login Registro](screenshot.jpg)
-![Login Registro](screenshot2.jpg)
+![Galería PHP-MySQL](screenshot.jpg)
+![Galería PHP-MySQL](screenshot2.jpg)
 
 ## Presentación del Proyecto
 
