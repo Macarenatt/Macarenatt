@@ -1,8 +1,8 @@
-<h1 align="center">🌍 Sitio web 🌍  <br>Galería PHP-MySQL</h1>
+<h1 align="center">🌍 Sitio web 🌍  <br> Base de datos Ajax </h1>
 
 ## Screenshots
-![Galería PHP-MySQL](screenshot.jpg)
-![Galería PHP-MySQL](screenshot2.jpg)
+![Base de datos Ajax](screenshot.jpg)
+![Base de datos Ajax](screenshot2.jpg)
 
 ## Presentación del Proyecto
 
@@ -12,9 +12,8 @@
 * Front end
 * HTML / CSS
 * Back end
-* PHP / MySQL
-* XAMPP / Apache
-* phpMyAdmin
+* PHP / PHPMyAdmin
+* MySQL / Ajax
 
 [LinkedIn Macarena Tudezca](https://www.linkedin.com/in/macarenatudezca/)
 ## Copyright 2023
